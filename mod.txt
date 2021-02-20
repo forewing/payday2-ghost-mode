@@ -1,0 +1,38 @@
+{
+    "name": "Ghost Mode",
+    "description": "Make you invisible to NPCs.",
+    "author": "forewing",
+    "contact": "",
+    "version": "0.0.1",
+    "priority": 10,
+    "hooks": [
+        {
+            "hook_id": "lib/managers/group_ai_states/groupaistatebase",
+            "script_path": "GhostMode.lua"
+        },
+        {
+            "hook_id": "lib/units/beings/player/playermovement",
+            "script_path": "GhostMode.lua"
+        },
+        {
+            "hook_id": "lib/units/props/securitycamera",
+            "script_path": "GhostMode.lua"
+        },
+        {
+            "hook_id": "lib/units/enemies/cop/copmovement",
+            "script_path": "GhostMode.lua"
+        },
+        {
+            "hook_id": "lib/units/enemies/cop/logics/coplogicarrest",
+            "script_path": "GhostMode.lua"
+        },
+        {
+            "hook_id": "lib/units/enemies/cop/logics/coplogicidle",
+            "script_path": "GhostMode.lua"
+        },
+        {
+            "hook_id": "lib/units/enemies/cop/logics/coplogicbase",
+            "script_path": "GhostMode.lua"
+        }
+    ]
+}
