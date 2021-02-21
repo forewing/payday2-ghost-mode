@@ -1,0 +1,17 @@
+{
+    "menu_id": "ghost_mode_menu",
+    "parent_menu_id": "blt_options",
+    "title": "ghost_mode_menu",
+    "description": "ghost_mode_menu_desc",
+    "items": [
+        {
+            "type": "toggle",
+            "id": "json_menu_toggle",
+            "title": "enable_toggle",
+            "description": "enable_toggle_desc",
+            "callback": "ghost_mode_callback_enable_toggle",
+            "value": "enable_value",
+            "default_value": true
+        }
+    ]
+}

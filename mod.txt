@@ -3,9 +3,13 @@
     "description": "Make you invisible to NPCs.",
     "author": "forewing",
     "contact": "",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "priority": 10,
     "hooks": [
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "GhostMode.lua"
+        },
         {
             "hook_id": "lib/managers/group_ai_states/groupaistatebase",
             "script_path": "GhostMode.lua"
