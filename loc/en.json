@@ -1,6 +1,6 @@
 {
     "ghost_mode_menu": "Ghost Mode",
     "ghost_mode_menu_desc": "Ghost mode make you invisible to NPCs.",
-    "enable_toggle": "Enable ghost mode",
-    "enable_toggle_desc": ""
+    "ghost_mode_enable_toggle": "Enable ghost mode",
+    "ghost_mode_enable_toggle_desc": ""
 }

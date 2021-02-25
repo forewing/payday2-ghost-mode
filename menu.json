@@ -7,8 +7,8 @@
         {
             "type": "toggle",
             "id": "json_menu_toggle",
-            "title": "enable_toggle",
-            "description": "enable_toggle_desc",
+            "title": "ghost_mode_enable_toggle",
+            "description": "ghost_mode_enable_toggle_desc",
             "callback": "ghost_mode_callback_enable_toggle",
             "value": "enable_value",
             "default_value": true
